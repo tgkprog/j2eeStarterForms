@@ -9,9 +9,16 @@
 		<servlet-name>Form_A</servlet-name>
 		<servlet-class>tgk.forms.web.FormsServlet</servlet-class>
 	</servlet>
+	
+	<servlet>
+		<servlet-name>usersS</servlet-name>
+		<servlet-class>tgk.forms.web.UsersServlet</servlet-class>
+	</servlet>
 
 	<servlet-mapping>
-		<servlet-name>Form_A</servlet-name>
-		<url-pattern>/info</url-pattern>
+		<servlet-name>usersS</servlet-name>
+		<url-pattern>/usrs</url-pattern>
 	</servlet-mapping>
+	
+	
 </web-app>
